@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./LinkedIn Page_files/styles.css">
+	<title>LinkedIn Page</title>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+    <!--Navbar-->
+	<nav>
+        <div>
+            <img class="nav-logo" src="./LinkedIn Page_files/linkedin.jpg" alt="linkedin logo">
+             <input type="text" placeholder="search">
+         </div>
+         <div>
+             <span class="nav-link">
+                 <img src="./LinkedIn Page_files/home.jpg" alt="home jpg">
+             <span>Home</span>
+         </span>&nbsp;&nbsp;&nbsp;&nbsp;
+     
+        <span class="nav-link">
+            <img src="./LinkedIn Page_files/network.png" alt="contact png">
+        <span>My Network</span>
+    </span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <span class="nav-link">
+        <img src="./LinkedIn Page_files/jobs.png" alt="jobs png">
+    <span>Jobs</span>
+    </span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <span class="nav-link">
+        <img src="./LinkedIn Page_files/messaging.jpg" alt="messaging jpg">
+    <span>Messaging</span>
+    </span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <span class="nav-link">
+        <img src="./LinkedIn Page_files/notifications.png" alt="notifications png">
+    <span>Notifications</span>
+    </span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <span class="nav-link">
+        <img src="./LinkedIn Page_files/me.jpg" alt="me jpg">
+    <span>Me</span>
+   </span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <span class="nav-link">
+      <img src="./LinkedIn Page_files/work.jpg" alt="work jpg">
+     <span>Work</span>
+   </span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+     </nav>
+     <!--main section-->
+     <main>
+        <!--Side Section-->
+         <section class="side-section">
+         <div class="navbar-left">
+         <img class="nav-profile" src="./LinkedIn Page_files/snehal.png" alt="profile image">
+    
+        <h1>Snehal Gund</h1>
+        <h3>MCA|| Experience with HTML|| CSS||Attended Bharati Vidyapeeth,Pune University.</h3>
+        <br>
+        <hr style="width:100%"><br>
+        <ul>
+            <li>Who viewed your profile &nbsp;&nbsp;<span>100</span></li>
+            <li>Views of your post &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>235</span></li>
+        </ul>
+        </div>
+        <div class="sidebar-profile-link">
+            <img src="./LinkedIn Page_files/myitems.png">&nbsp;&nbsp; My Items 
+        </div>
+         <div><p>Unlock exclusive hiring tools with recruiter lite</p></div>
+         <div class="sidebar-activity-img">
+            <h3>RECENT</h3>
+            <br><img src="./LinkedIn Page_files/web.jpg"> Web Development
+            <br><img src="./LinkedIn Page_files/userinterface.png"> User Interface
+            <br><img src="./LinkedIn Page_files/onlinelearning.jpg"> Online Learning
+        </div>
+         <div>
+            <h3>GROUPS</h3>
+            <br><img src="./LinkedIn Page_files/groupicon.jpg"> Web Design Group
+            <br><img src="./LinkedIn Page_files/groupicon.jpg"> HTML &amp; CSS Learners
+            <br><img src="./LinkedIn Page_files/groupicon.jpg"> Learn Coding Online
+         </div>
+         </section>
+
+         <section class="middle-section">
+         <div class="create-post-input">
+         <img src="./LinkedIn Page_files/one.jpg">&nbsp;
+         <textarea rows="2" placeholder="write a post"></textarea>
+         </div>
+         
+         <div class="creat-post-links">
+            <span>
+            <img src="./LinkedIn Page_files/photo.png">Photo &nbsp;&nbsp;&nbsp;&nbsp;   
+            <img src="./LinkedIn Page_files/video.png">videos  &nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="./LinkedIn Page_files/document.png">Document  &nbsp;&nbsp;&nbsp;&nbsp; 
+            <img src="./LinkedIn Page_files/artical.png">write article &nbsp;&nbsp;&nbsp;&nbsp;  
+        </span>
+         
+        <span class="sort-by">
+            <hr>
+            <p>Sort by:<span>top<img src="./LinkedIn Page_files/down-arrow.png"></span>
+            </p>
+          </span></div>
+
+         <div class="post">
+            <div class="post-author">
+                <img src="./LinkedIn Page_files/benjamin.png">
+                <div>
+                  <h1>Benjamin Leo</h1>
+                  <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+                  <small>2 hours ago</small>
+                </div>
+              </div>
+              
+              <p>
+                The success of every Websites depend on search engine optimisation
+                and digital marketing strategy.If you are on first page of all major
+                search engines thank you are ahead among your compititors.
+              </p>
+              <img src="./LinkedIn Page_files/riyansh.png" width="100%">
+              </div>
+
+
+         <div class="post">Box 3</div>
+         </section>
+
+         <!--box1-->
+         <section class="side-section">
+         <div class="side-news">
+            <h2>Linkedin News</h2><br>
+            <h4><li>Intel to build $7B Arizona factory</li></h4>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20 min ago,42 post about this
+
+             <h4><li>It is a time for promotion</li></h4>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28 minutes ago,1242 posts about this
+
+             <h4><li>Dakota Pipeline route approved</li></h4>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 hour ago,342 posts about this
+
+             <h4><li>How to disconnected on vacation</li></h4>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ hours ago,23 new posts
+         </div>
+
+        <!--box2-->
+         <div class="sidebar-ad">
+            <small>Ad · · ·</small>
+            <p>Master all topics of Web Development</p>
+             <img src="./LinkedIn Page_files/picture.jpg">
+              <img src="./LinkedIn Page_files/newweb.png">
+            </div>
+        <!--box 3-->
+         <div class="sidebar-useful-links">
+            About&nbsp;
+            Accessibility &nbsp;
+            Help Center &nbsp;
+            Privacy Policy &nbsp;
+            Advertising &nbsp;
+            Get the App &nbsp;
+            More
+
+            <div class="copyright-msg">
+                <img src="./LinkedIn Page_files/linkedin.jpg">
+                <p>LINKEDIN OJ © 2024. All rights reserved</p>
+              </div>
+  
+         </div></section>
+     </main>
+ </body></html>
